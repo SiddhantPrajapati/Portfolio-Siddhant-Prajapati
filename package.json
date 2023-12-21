@@ -4,7 +4,7 @@
   "description": "Simple port folio project",
   "main": "app.js",
   "scripts": {
-    "test": "npm run start"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
