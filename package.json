@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Simple port folio project",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddhantPrajapati/Portfolio-Siddhant-Prajapati.git"
+  },
+  "author": "Siddhant Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiddhantPrajapati/Portfolio-Siddhant-Prajapati/issues"
+  },
+  "homepage": "https://github.com/SiddhantPrajapati/Portfolio-Siddhant-Prajapati#readme",
+  "devDependencies": {
+    "express": "^4.18.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
