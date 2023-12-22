@@ -5,7 +5,7 @@ body {
   }
   
   nav {
-    background-color: #333;
+    background-color:greenyellow;
     color: white;
     padding: 10px 0;
   }
@@ -32,7 +32,7 @@ body {
   }
   
   button {
-    background-color: #333;
+    background-color: yellowgreen;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -40,7 +40,7 @@ body {
   }
   
   button:hover {
-    background-color: #555;
+    background-color: lightgreen;
   }
   
   form {
@@ -48,9 +48,35 @@ body {
     grid-gap: 10px;
   }
   
-  nav #right-head {
+  #right-head {
     float: right;
     width: 30%;
     height: auto;
     text-align: right;
+    color: white;
+  }
+
+  #left-head {
+    float : left;
+    width: 70%;
+    height: auto;
+    text-align: left;
+    color: white;
+  }
+
+  .project, .achive {
+    border-top : solid green;
+    padding: 2%;
+    margin-top: 2%;
+  }
+
+  .project a, .achive a {
+    display: inline;
+    padding: 2%;
+    margin: 2%;
+    background-color: yellowgreen;
+  }
+
+  .project a:hover , .achive a:hover {
+    background-color: green;
   }
