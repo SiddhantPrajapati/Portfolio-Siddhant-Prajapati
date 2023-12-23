@@ -22,6 +22,11 @@ app.get('/resume', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../contents/files/Siddhant Prajapati.pdf'))
 })
 
+//below path show the hackerrank profile
+app.get('/achivement/Hackerrank-profile', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../contents/images/Hackerrank-profile.jpg'))
+})
+
 //below path is used to show ISRO Certification
 app.get('/achivement/ISROCertificate', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../contents/files/ISRO_Certificate.pdf'))
